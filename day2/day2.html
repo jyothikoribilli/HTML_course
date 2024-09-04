@@ -1,152 +1,77 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>MSIT - Info Page</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f8f8f8;
-                color: #333;
-            }
-
-            header {
-                background-color: #f2f2f2;
-                padding: 20px;
-                border-bottom: 2px solid #ccc;
-            }
-
-            header img {
-                max-width: 100px;
-            }
-
-            header h1 {
-                margin: 0;
-                font-size: 24px;
-                color: #0066cc;
-            }
-
-            .navbar {
-                background-color: #333;
-            }
-
-            .navbar ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                text-align: center;
-            }
-
-            .navbar ul li {
-                display: inline;
-                margin-right: 10px;
-            }
-
-            .navbar ul li a {
-                display: inline-block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            .navbar ul li a:hover {
-                background-color: #575757;
-                border-radius: 5px;
-            }
-
-            section {
-                padding: 20px;
-                margin: 20px;
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-
-            section h2 {
-                color: #0066cc;
-                font-size: 22px;
-                margin-bottom: 10px;
-            }
-
-            section p {
-                font-size: 16px;
-                margin-bottom: 20px;
-            }
-
-            section ul {
-                list-style-type: disc;
-                padding-left: 20px;
-            }
-
-            section ul li {
-                margin-bottom: 10px;
-                font-size: 16px;
-            }
-
-            section img {
-                max-width: 100%;
-                border-radius: 8px;
-                margin-top: 20px;
-            }
-        </style>
+        <title>MSIT -Info Page</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
-        <header>
-            <center><img src="msitlogo.png" alt="MSIT Logo"></center>
-            <center><h1>Master of Science in Information Technology</h1></center>
-        </header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="default.asp">Overview</a></li>
-                <li><a href="news.asp">Curriculum</a></li>
-                <li><a href="contact.asp">Admission Requirements</a></li>
-                <li><a href="about.asp">Contact Us</a></li>
-            </ul>
-        </nav>
-        <section>
-            <h2>Program Overview</h2>
-            <p>The MSIT program is designed to equip students with the skills and knowledge needed to excel in the field of information technology. Our curriculum is tailored to meet the needs of both beginners and experienced professionals.</p>
-            <center><img src="image.png" alt="Program Overview"></center>
-        </section>
-        <section>
-            <h2>Curriculum</h2>
-            <p>The curriculum covers a wide range of topics, including:</p>
-            <ul>
-                <li>Data Structures and Algorithms</li>
-                <li>Database Management Systems</li>
-                <li>Web Development</li>
-                <li>Cloud Computing</li>
-                <li>Cybersecurity</li>
-            </ul>
-        </section>
-        <section class="card-ad">
-            <h2>Admission Requirements</h2>
-            <p>To apply for the MSIT program, you will need:</p>
-            <ul>
-                <li>A bachelor's degree in a related field</li>
-                <li>Official transcripts</li>
-                <li>Resume/CV</li>
-                <li>Statement of purpose</li>
-                <li>Two letters of recommendation</li>
-            </ul>
-        </section>
-        <section class="card-con">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, feel free to reach out to us:</p>
-            <ul>
-                <li>Email: <a href="mailto:msit@university.edu">msit@university.edu</a></li>
-                <li>Phone: (123) 456-7890</li>
-            </ul>
-        </section>
-    </body>
-    <footer>
-        <nav>
-            <ul>
-                <li>&#169; 2024 University Name. All rights reserved.</li>
-            </ul>
-        </nav>
-    </footer>
+        <body>
+            <header>
+
+                <header>
+                    <img src="msitlogo.png" class="logo">
+                    <h1>Master of Science in Information Technology</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="#Overview">Overview</a></li>
+                        <li><a href="#Curriculum">Curriculum<a></li>
+                        <li><a href="#Admission Requirements">Admission Requirements<a></li>
+                        <li><a href="#Contact us">Contact us<a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="card">
+                <h2>Program Overview</h2>
+                <p>The MSIT program is designed to equlp students with the skills and knowledge needed to excel in the field of information Technology. Our curriculum is tailored to meet the needs of both begginers and experienced professionals</p>
+                <img src="./image.png" alt="">
+            </section>
+            <!--Curriculum Section -->
+            <section class="card-cur">
+                <h2>Curriculum</h2>
+                <p>The curriculum covers a wide range of topics, including:</p>
+                <ul>
+                    <li> Data Structures and Algorithms </li>
+                    <li>Database Management Systems </li>
+                    <li>Web Development</li>
+                    <li>Cloud Computing </li>
+                    <li>Cybersecurity</li>
+
+                </ul>
+            </section>
+
+            <section class="card-ad">
+                    <h2>Admission Requirements</h2>
+                    <p>To apply for the MSIT program, you will need:</p>
+                    <ul>
+                        <li>A bachelor's degree in a related field</li>
+                        <li>Database Management Systems </li>
+                        <li>Official transcripts </li>
+                        <li>Resume/CV </li>
+                        <li> Statement of purpose </li>
+                        <li>Two letters of recommendation</li>
+    
+                    </ul>
+            </section>
+            <section class="card-con">
+                    <h2>Contact Us </h2>
+                    <p>If you have any questions, feel free to reach out to us: 
+                    </p>
+                    <ul>
+                        <li>Email  : <a href="mailto:"> msit@university.edu</a> </li>
+                        <li>Phone: (123) 456-7890</a> </li>
+    
+                    </ul>
+            </section>
+            
+            
+        </body>
+        <footer>
+            <nav>
+                <ul>
+                    <li> &#169; 2024 University Name. All rights reserved</li>
+                </ul>
+            </nav>
+
+        </footer>
 </html>
