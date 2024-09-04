@@ -1,0 +1,29 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+header{
+    text-align: center ;
+}
+h1{
+    color:#0858ed
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+section {
+    display: block;
+    background-color: #f4f4f4;
+}
+section img{
+    display: block;
+    margin: 0 auto;
+}
+section li{
+    color:black;
+    padding-left: 50px;
+
+}
