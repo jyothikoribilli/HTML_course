@@ -24,10 +24,24 @@ body {
         color: whitesmoke;
         display: inline-block;
         padding: 14px 12px;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     
     }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        
+        transition: color 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+    nav ul li:hover {
+        color: #7d8298; 
+        background-color: rgba(255, 255, 255, 0.2); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    
+    
     h2{
         margin-left: 1.5rem;
         color:#1a41d6
@@ -38,6 +52,10 @@ body {
         margin-left: 560px;
         text-align: center;
     }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
     section{
         background-color: white ;
         padding: 4px;
@@ -46,4 +64,25 @@ body {
     }
     ul li{
         padding: 0;
+    }
+    .one img{
+        margin-left: 500px;
+        border-radius: 6px;
+
+
+    }
+    .oneN{
+        display: flex;
+        justify-content: space-between;
+    }
+    #curriculum ul{
+        display: flex;
+        padding: 6px;
+        gap: 10px;
+    }
+    #curriculum li{
+        list-style: none;
+        background-color:#f3f3f3;
+        padding: 8px;
+        border-radius: 10px;
     }
