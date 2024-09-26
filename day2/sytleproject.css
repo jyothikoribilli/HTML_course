@@ -92,14 +92,14 @@ section p {
 }
 
 .home-image {
-    flex-basis: 45%;
+    flex-basis: 35%;
 }
 
 .home-image img {
-    max-width: 100%; /* Changed to make image responsive */
+    max-width: 60%; /* Changed to make image responsive */
     border-radius: 70%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .skills-list, .projects-list {
@@ -230,7 +230,7 @@ footer p {
         font-size: 0.9rem; /* Further adjust paragraph size */
     }
 }.home-image img {
-    width: 100%; /* Makes the image take full width of its container */
+    width: 60%; /* Makes the image take full width of its container */
     height: auto; /* Maintains the aspect ratio */
     max-width: 400px; /* Sets a max width to prevent it from getting too large */
     border-radius: 70%;
